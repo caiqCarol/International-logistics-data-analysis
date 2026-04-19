@@ -7,9 +7,9 @@
 
 ## 数据集来源
 在工具辅助下，由本人对于国际物流的理解，通过Python生成10000行的数据集用与分析国际物流公司，探讨如何改善成本结构优化公司利润率。
-关键字段：- **Order Info: `order_id`, `order_date`, `customer_type`, `transport_mode`, `origin_city`, `destination_country`
+关键字段：-**Order Info: `order_id`, `order_date`, `customer_type`, `transport_mode`, `origin_city`, `destination_country`
 -** Shipment & Service: `weight_kg`, `volume_cbm`, `promised_days`, `actual_days`, `delay_flag`
-- **Cost & Profit Metrics**: `shipping_cost`, `customs_cost`, `warehouse_cost`, `total_cost`, `revenue`, `profit`, `profit_margin`
+-**Cost & Profit Metrics**: `shipping_cost`, `customs_cost`, `warehouse_cost`, `total_cost`, `revenue`, `profit`, `profit_margin`
 
 ## 使用的工具
 Python（Pandas、NumPy） 可视化：Plotly /  matplotlib    SQL（查询、统计、分组、筛选、聚合、指标计算）
